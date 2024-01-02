@@ -15,12 +15,12 @@ export default function Header() {
     }
 
         return (
-            <Navbar expand="lg" className="bg-body-tertiary">
-                <Container>
-                    <Navbar.Brand href="#home">Unseen</Navbar.Brand>
+            <Navbar expand="lg">
+                <Container fluid className="bg-body-tertiary d-flex justify-content-between">
+                    <Navbar.Brand href="#home" className="ml-auto">Unseen</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                    <Navbar.Collapse id="basic-navbar-nav">
-                        <Nav className="me-auto">
+                    <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
+                        <Nav>
                             <Nav.Link href="#home">Home</Nav.Link>
                             <Nav.Link href="#features">Features</Nav.Link>
                             <Nav.Link href="#pricing">Pricing</Nav.Link>
