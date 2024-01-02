@@ -25,7 +25,7 @@ export default function LeadForm() {
         <br />
 
         <Button variant="primary" type="submit">
-          Submit
+          Join the Waitlist
         </Button>
       </Form>
     </>
