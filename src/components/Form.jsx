@@ -25,13 +25,12 @@ export default function LeadForm() {
                 We'll never share your phone number with anyone else.
               </Form.Text>
             </Form.Group>
-            <br />
             <Form.Text className="text-muted">
               By clicking 'Join Now', you agree to our Terms of Service and
               Privacy Policy.
             </Form.Text>
             <br />
-            <Button variant="primary" type="submit">
+            <Button style={{margin: "16px", justifyItems: "center"}} variant="primary" type="submit">
               Join the Waitlist
             </Button>
             <br />
