@@ -3,27 +3,31 @@ import Form from "react-bootstrap/Form";
 
 export default function LeadForm() {
   return (
-    <Form>
-      <Form.Group className="mb-3" controlId="formBasicEmail">
-        <Form.Label>Full Name</Form.Label>
-        <Form.Control type="email" placeholder="Enter email" />
-      </Form.Group>
+    <>
+    <h1 style={{margin: "100px" }}>Welcome to Unseen</h1>
 
-      <Form.Group className="mb-3" controlId="formBasicEmail">
-        <Form.Label>Phone Number</Form.Label>
-        <Form.Control type="email" placeholder="Enter email" />
-      </Form.Group>
+      <p>The first fully accessible mobile dating app for the visually impaired and blind</p>
+      <Form style={{width: "50vw"}}>
+        <Form.Group className="mb-3" controlId="formBasicEmail">
+          <Form.Label>Full Name</Form.Label>
+          <Form.Control type="email" placeholder="Enter email" />
+        </Form.Group>
 
-      <Form.Text className="text-muted">
-        We'll never share your phone number with anyone else.
-      </Form.Text>
+        <Form.Group className="mb-3" controlId="formBasicEmail">
+          <Form.Label>Phone Number</Form.Label>
+          <Form.Control type="email" placeholder="Enter email" />
+        </Form.Group>
 
-      <br/>
+        <Form.Text className="text-muted">
+          We'll never share your phone number with anyone else.
+        </Form.Text>
 
-      <Button variant="primary" type="submit">
-        Submit
-      </Button>
+        <br />
 
-    </Form>
+        <Button variant="primary" type="submit">
+          Submit
+        </Button>
+      </Form>
+    </>
   );
 }
